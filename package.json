@@ -9,6 +9,7 @@
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.1.2"
+    "lerna": "^2.1.2",
+    "tape": "^4.8.0"
   }
 }
