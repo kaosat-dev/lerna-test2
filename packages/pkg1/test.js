@@ -1,5 +1,5 @@
 const test = require('tape')
-const {fun, castle} = require('./index')
+const {fun, castles} = require('./index')
 
 test('simple test for pkg1: fun()', function (t) {
   t.plan(1)
@@ -9,10 +9,10 @@ test('simple test for pkg1: fun()', function (t) {
   t.equal(expected, observed)
 })
 
-test('simple test for pkg1: castle()', function (t) {
+test('simple test for pkg1: castles()', function (t) {
   t.plan(1)
 
   const expected = 'oh yeah let us build casstlye'
-  const observed = castle()
+  const observed = castles()
   t.equal(expected, observed)
 })
