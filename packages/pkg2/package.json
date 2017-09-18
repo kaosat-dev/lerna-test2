@@ -1,13 +1,11 @@
 {
   "name": "lerna-test2-pkg2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
   },
   "author": "Mark 'kaosat-dev' Moissette",
-  "license": "MIT",
-  "devDependencies": {
-  }
+  "license": "MIT"
 }
