@@ -12,7 +12,7 @@ test('simple test for pkg1: fun()', function (t) {
 test('simple test for pkg1: castles()', function (t) {
   t.plan(1)
 
-  const expected = 'oh yeah let us build casstlye'
+  const expected = 'oh yeah let us build casstlyeA'
   const observed = castles()
   t.equal(expected, observed)
 })

@@ -7,5 +7,9 @@
     "test": "tape test.js"
   },
   "author": "Mark 'kaosat-dev' Moissette",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lerna-test2-pkg-common":"*"
+  }
+
 }
